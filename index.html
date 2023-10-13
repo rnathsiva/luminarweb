@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            margin: 0;
+            width: 100%;
+            padding: 0;
+            background-color: rgb(244, 241, 241);
+        }
+
+        .purplebg {
+            background-color: rgb(94, 6, 138);
+            color: white;
+
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        h1 {
+            font-weight: 200;
+            text-align: start;
+            font-weight: bold;
+            font-size: 60px;
+        }
+
+        h4 {
+            text-align: start;
+            font-size: 17px;
+            font-weight: bold;
+            margin-bottom: 90px;
+        }
+
+        img {
+            height: 600px;
+            filter: brightness(50%);
+        }
+
+        .blue {
+            background-color: rgb(152, 55, 243);
+            color: white;
+            border-radius: 25px;
+            width: 164px;
+            height: 56px;
+            border: 0;
+        }
+
+        .violet {
+            background-color: rgb(152, 55, 243);
+            color: white;
+            border-radius: 25px;
+            width: 164px;
+            height: 56px;
+            border: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            width: 100%;
+        }
+
+        .green {
+            background-color: rgb(134, 24, 237);
+            border-radius: 2px;
+            width: 114px;
+            height: 47px;
+        }
+
+        input {
+            border: none;
+        }
+
+        label {
+            border: none;
+        }
+
+        textarea {
+            border: none;
+        }
+
+        .b1 {
+            background-color: rgb(134, 24, 237);
+            color: white;
+            border-radius: 30px;
+            width: 137px;
+            height: 58px;
+            text-align: center;
+            padding: 14px;
+        }
+
+        @media(max-width:500px) {
+            h1 {
+                font-size: larger;
+            }
+
+            h4 {
+                font-size: medium;
+                font-weight: 200;
+            }
+
+            .blue {
+                width: 101px;
+                height: 50px;
+                border-radius: 42px;
+            }
+
+            .violet {
+                width: 101px;
+                height: 50px;
+                border-radius: 42px;
+            }
+        }
+
+        span {
+            color: rgb(196, 151, 239);
+        }
+
+        .b2:hover {
+            box-shadow: 0 0 10px 1px rgb(121, 120, 120);
+        }
+
+        .b2 {
+            background-color: rgb(64, 3, 121);
+            color: white;
+        }
+
+        .logo {
+            margin-bottom: 24px;
+        }
+
+        .final-row {
+            margin-left: -15px;
+            margin-left: -15px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid purplebg m-0 w-100 p-0" style="background-color: rgb(94, 6, 138);
+    color: white;">
+        <div class="row container mx-auto my-0">
+            <div class="col-md-6 my-0">
+                <p class="fw-light">Have any question? <a href="tel:+91 8086 651 651">+91 8086 651 651</a></p>
+            </div>
+            <div class="col-md-6 text-md-end my-0">
+                <p class="fw-light"> <a href="tel:+91 8086 651 651"><i class="fa-solid fa-phone"></i>+91 8086 651
+                        651</a> <a href="mailto:contact@luminartechnolab.com"><i class="fa-solid fa-envelope"></i>
+                        contact@luminartechnolab.com</a></p>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg" style="background-color: white; width: 100%;">
+            <div class="container" style="width: 100%;">
+
+                <a class="navbar-brand" href="#">
+                    <img src="./images.css/unnamed (1).png" alt="Logo" class="img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">COURSES</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link  text-dark" href="#">PLACEMENTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-dark" href="#">GALLERY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-dark" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-dark" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+                <img src="./images.css/lum 2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h1>Kerala's No.1 IT Finishing School<br>100% Placement Assistance</h1>
+                    <br>
+                    <br>
+                    <h4>We LUMINAR TECHNOLAB offers best software training and placement in <br>emerging
+                        technologies like Big Data, Data Science, Machine Learning, Python,<br> Software Testing.</h4>
+                    <br>
+                    <button class="blue">VIEW COURSES</button>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="./images.css/lum 1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h1>Data Science, ML & Al <br>Big Data - Hadoop & Spark <br>Python Data Science</h1>
+                    <br>
+                    <h4>We LUMINAR TECHNOLAB offers best software training and placement in<br>emerging
+                        technologies like Big Data,Hadoop,Spark,Data Science,Machine<br>Learning,Deep Learning and AI
+                    </h4>
+                    <br>
+                    <button class="violet">VIEW COURSES</button>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            info
+        </button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Get Training Quote for free</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" width="50px" text-align="center">
+                        <form mx-2>
+                            <input type="text" placeholder="Name"><br>
+                            <hr>
+                            <input type="email" placeholder="email"><br>
+                            <hr>
+                            <input type="tel" placeholder="phone number"><br>
+                            <hr>
+
+                            <label for="d1">Select course interested in:</label>
+                            <select name="" id="d1">
+                                <option name=""></option>
+                                <option value="">python</option>
+                                <option value="">data science</option>
+                                <option value="">mearn stack</option>
+                                <option value="">machine learning</option>
+                            </select>
+                            <hr>
+
+                            <input type="text" placeholder="City"><br>
+                            <hr>
+
+                            <textarea name="" id="d2" placeholder="comments" col="30" row="10"></textarea><br>
+                            <hr>
+                            <div>
+                                <button class="green">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="background-color: white;">
+        <div class="col-lg-6 p-2" style="background-color: white;margin-top: 5%;">
+            <div class="d1 ms-4 p-3 ps-4"
+                style="color: rgb(97, 8, 181); font-weight: 600;font-size: 30px; text-align: center;">
+                Luminar Technolab Pvt Ltd
+            </div>
+            <div class="d2" style="font-weight:300; color: rgb(128, 7, 241);margin-left: 28%;font-size: 20px;">
+                CIN: U80220KL2021PTC071578
+            </div>
+            <br>
+            <div class="d3" style="font-weight: 400;text-align: start; margin-left: 28%;">
+                Luminar Technolab is an IT Finishing School located near Infopark - Cochin, focused on providing
+                advanced level software training to Students and by helping them to get placed in IT companies. We are a
+                team of IT professionals who have experience in IT sector for more than 15 plus years. Our fresher’s
+                career foster programs are Big Data Training, Data Science Training, Data Analytics Training, Python
+                Training, Software Testing Training & Selenium Training in Cochin, Kerala are designed in such a way to
+                match with the current industry requirements. Our Vision is to provide 100% placements to students those
+                who enroll with us for our specialized courses.
+            </div>
+            <br>
+            <br>
+            <div class="b1" style="margin-left: 28%;"> LEARN MORE</div>
+        </div>
+        <div class="col-lg-6 p-3">
+            <img src="./images.css/qq.jpg" style="filter: none; max-width: 100%;">
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="d4" style="color: rgb(79, 5, 147);text-align: center;font-size: 30px;font-weight: 600;">OUR
+        <span>COURSES</span>
+    </div>
+    <br>
+    <div class="row course-1 bg-white m-1" style="margin-left: -15px; margin-left: -15px;">
+        <div class="col-md-6 container-fluid">
+            <img src="./images.css/IMG-3118.JPG"
+                style="filter: none; max-width: 100%;height: 350px;background-position: center;">
+        </div>
+        <div class="col-md-6 container-fluid" style="background-color: white;">
+            <div class="d5 pt-4 mt-4"
+                style="color: rgb(84, 7, 156); font-size: 22px; font-weight: 500;background-color: white;">DATA SCIENCE
+                -
+                ML - AI - BIG DATA WITH CLOUD & TABLEAU</div>
+            <br>
+            <div class="d6" style="color: black;font-weight: 200;">Python, Hadoop, Spark, Data Analytics, Linear
+                Algebra, Statistics, Probability Concepts, Machine Learning, Deep Learning, Data Science, Artificial
+                Intelligence, Tableau, AWS Cloud.</div>
+            <br>
+            <div class="d7" style="font-weight: bold;">📅 Next Batch : Jan 03rd 2022 (09:30 am - 11:30 am)</div>
+            <br>
+            <div class="d8" style="font-weight: bold;">⏰ Duration: 6 Months, 5-6 Days a Week, 2-3 Hours/day </div>
+            <br>
+            <div class="d9" style="font-weight: bold;">🧑‍🏫 Course Fees:VIEW MORE
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="row course-2 m-1 mt-4">
+        <div class="col-md-4 container-fluid" style="max-width: 100%;">
+            <img src="./images.css/c797d407-2fc3-4b2b-ae63-f66492af1d37.JPG"
+                style="filter: none;max-width: 100%;background-position: center;height: 200px;">
+            <div class="common" style="background-color: white; width: 382px;">
+                <div class="d10 p-3" style="color: rgb(64, 3, 121);font-weight: 500; font-size: 20px;">Python
+                    Djang0-Angular-Full Stack Web Development Expert</div>
+                <div class="d11 p-3">Core Python, Basics of Programming, Unix Commands, Advanced Python, Django
+                    Framework, REST API, Git, Angul...</div>
+                <br>
+                <div class="d12 pb-3 ms-4">
+                    <button class="b2" style="background-color: rgb(64, 3, 121);color: white;">VIEW MORE</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 container-fluid" style="max-width: 100%; ">
+            <img src="./images.css/software.JPG"
+                style="filter: none;max-width: 100%;background-position: center;height: 200px;">
+            <div class="common" style="background-color: white;width: 382px;">
+                <div class="d10 p-3" style="color: rgb(64, 3, 121);font-weight: 500; font-size: 20px;">Software
+                    Testing Specialist</div>
+                <div class="d11 p-3">Manual Testing, Java foundations, Mobile Testing, Selenium IDE, Selenium Web
+                    driver, Selenium Advanced Web...</div>
+                <br>
+                <div class="d12 pb-3 ms-4">
+                    <button class="b2" style="background-color: rgb(64, 3, 121);color: white;">VIEW MORE</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 container-fluid" style="max-width: 100%;">
+            <img src="./images.css/mearn stack.JPG"
+                style="filter: none;max-width: 100%;background-position: center;height: 200px;">
+            <div class="common" style="background-color: white;width: 382px;">
+                <div class="d10 p-3" style="color: rgb(64, 3, 121);font-weight: 500; font-size: 20px;">MEARN Stack
+                    Web Development Expert- Angular & React</div>
+                <div class="d11 p-3">HTML, CSS, Javascript, Bootstrap, Git, Typescript, MongoDB, MySQL, Express.JS,
+                    Angular, React.js and Node....</div>
+                <br>
+                <div class="d12 pb-3 ms-4">
+                    <button class="b2" style="background-color: rgb(64, 3, 121);color: white;">VIEW MORE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container-fluid text-center">
+        <button class="btn btn-primary hollowbtn rounded-5 py-3 px-4 mx-auto mt-0 mb-5">View All Courses</button>
+    </div>
+    <div class="row py-5">
+        <div class="col-lg-5 text-center py-5 align-self-center">
+            <img src="./images.css/quotes.png" alt="" style="height:111px;width:125px">
+            <h3 class="purple">TESTIMONIALS</h3>
+        </div>
+
+        <!--second carousel-->
+        <div class="col-lg-7">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner border-start border-3 ps-5 ">
+                    <div class="carousel-item">
+                        <p class="w-100 fw-bold">I did the course of software testing from Luminar Technolab via
+                            online... Best place to learn software
+                            testing.Rugma Mam and Sreedevi Mam were my teachers and they were very friendly and
+                            well knowledgeable. They
+                            did teach us in an excellent way. They also provide recordings of every class..Teena
+                            Mam and Rahul Sir were
+                            very sincere in guiding me.. They provide interviews even before the completion of
+                            the course. I got placed
+                            in a reputed company with the help of them and I ll be ever thankful to Luminar
+                            Technolab..</p>
+                        <p class="author">DHANASREE R N</p>
+                        <p class="authorinfo">Quality Analyst in LogicPlum</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="w-100 fw-bold">I think I must review the data science course offered by
+                            Luminar technolabs, kakkanadu. I came to know about
+                            Luminar from one of my friends and I joined the couse 6 months before. The course
+                            touches almost all areas
+                            of data science practically. As completing each areas or fundamentals, the
+                            instructors make sure that we
+                            learned the concepts and able to reproduce the same by guiding us to do hands on
+                            projects on it.project
+                            reviews are conducting periodically till the final demo. All these really helps us
+                            to improve our knowledge
+                            on particular areas. I really appreciate their efforts to schedule online sessions
+                            during COVID-19
+                            circumstances. Guiding candidates for interviews/machine tests by talented and
+                            experienced instructors
+                            specifically. Thank you luminar for the course offered.. And I must say that you may
+                            add on to the
+                            curriculum for the betterment of the course.
+                        </p>
+                        <p class="author">Praseeda Gopinadhan K</p>
+                        <p class="authorinfo">Data Science Intern, Tranzmeo</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="w-100 fw-bold">Luminar Technolab helped me in creating self confidence for
+                            attending interview successfully and for securing
+                            a job by providing all technical/practical training even through online classes
+                            during this lockdown period.
+                            <br>The homely attittude of all the staff members was impressing and I will be
+                            greatful to luminar. <br>I am
+                            proud to be a member of this esteemed luminar family
+                        </p>
+                        <p class="author">Aravind S Menon</p>
+                        <p class="authorinfo">Python Developer - Snortech</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="w-100 fw-bold">A great place in Kochi to learn MEAN Stack Web Development. The
+                            classes were good, informative and 95%
+                            practical. They also provide good placement support. Got offer letter from 3
+                            companies through their
+                            placement support right after the training.</p>
+                        <p class="author">Harin Rajan</p>
+                        <p class="authorinfo">Trainee Front End Developer , Nexquare</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="w-100 fw-bold">As a btech passout with a career gap of 7 years without any
+                            hands on experience ,I was really confused and
+                            less confident in joining any course or even trying for a job..But Luminar not only
+                            helped me for getting a
+                            placement but also they give confidence throughout the course duration till we get
+                            placed.. Luminar provides
+                            training in both subject knowledge and job skills. Rugma Raghav was my trainer in
+                            software testing(online
+                            class) , more than a trainer she was really a mentor who always keep us
+                            encouraging,Her classes helped me to
+                            shape my career in testing. Who are willing to resume their career after a
+                            gap,Luminar is the best option
+                            you can ever choose.. Thanks from heart to Luminar.</p>
+                        <p class="author">Jyonsna G Kumar</p>
+                        <p class="authorinfo">Software Test Engineer</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="w-100 fw-bold">I had taken a course on Python Django Full Stack Web
+                            Development and they have a great track record of
+                            placements as I happened to get a job with their guidance and help.</p>
+                        <p class="author">Imthiaz Muhassin</p>
+                        <p class="authorinfo">Software Engineer</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="w-100 fw-bold">I attended this course. I am so happy with the overall
+                            training. the faculty were cordial and cooperative and
+                            willing to help with smallest issues. I am offering my gratefulness to the Director
+                            of Luminar Technolab
+                            Rahul sir for his great support</p>
+                        <p class="author">Tijo Thakachan</p>
+                        <p class="authorinfo">Data Science Intern - Tranzmeo</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="w-100 fw-bold">Luminar Technolab is an awesome training institute in kochi.I
+                            have attended the course in software testing
+                            after a career gap and it was a good experience.The course content / structure and
+                            the instructor are really
+                            awesome. The good thing is that you can build a better career with Luminar. Thank
+                            you so much for your
+                            support and guidance.</p>
+                        <p class="author">Anju Joseph</p>
+                        <p class="authorinfo">Software Test Engineer - Loremine</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="w-100 fw-bold">Great Place to learn python. i have completed python django
+                            full stack web development course here. fully
+                            satisfied with the training. the trainers are very helpful. best place to develop
+                            our career/p&gt;
+                        </p>
+                        <p class="author">BIBIN JOY</p>
+                        <p class="authorinfo">Python developer in Data Hub</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="w-100 fw-bold">Great place to learn software testing. The trainers are very
+                            helpful and very friendly. They also provide
+                            good placement support. I attended the online classes. The recording facility is
+                            really helpful for
+                            revising. After course I got placed in a reputed company as Quality Engineer. Thank
+                            you luminartechnolab for
+                            guide me to achieve the first step into my career.</p>
+                        <p class="author">Aparna P P</p>
+                        <p class="authorinfo">Quality Engineering Consultant in GrowthPlug</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="w-100 fw-bold">Its really a great institute for learning Software testing
+                            covering all advanced topics.Value for money.The
+                            Testing faculties are experts.They are really doing a fantastic job. This institute
+                            is best for the IT life.
+                        </p>
+                        <p class="author">Ronia John</p>
+                        <p class="authorinfo">QA Tester in CloudQ</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="w-100 fw-bold">I did the course of software testing from Luminar Technolab via
+                            online... Best place to learn software
+                            testing.Rugma Mam and Sreedevi Mam were my teachers and they were very friendly and
+                            well knowledgeable. They
+                            did teach us in an excellent way. They also provide recordings of every class..Teena
+                            Mam and Rahul Sir were
+                            very sincere in guiding me.. They provide interviews even before the completion of
+                            the course. I got placed
+                            in a reputed company with the help of them and I ll be ever thankful to Luminar
+                            Technolab..</p>
+                        <p class="author">DHANASREE R N</p>
+                        <p class="authorinfo">Quality Analyst in LogicPlum</p>
+                    </div>
+                    <div class="carousel-item active">
+                        <p class="w-100 fw-bold">I think I must review the data science course offered by
+                            Luminar technolabs, kakkanadu. I came to know about
+                            Luminar from one of my friends and I joined the couse 6 months before. The course
+                            touches almost all areas
+                            of data science practically. As completing each areas or fundamentals, the
+                            instructors make sure that we
+                            learned the concepts and able to reproduce the same by guiding us to do hands on
+                            projects on it.project
+                            reviews are conducting periodically till the final demo. All these really helps us
+                            to improve our knowledge
+                            on particular areas. I really appreciate their efforts to schedule online sessions
+                            during COVID-19
+                            circumstances. Guiding candidates for interviews/machine tests by talented and
+                            experienced instructors
+                            specifically. Thank you luminar for the course offered.. And I must say that you may
+                            add on to the
+                            curriculum for the betterment of the course.</p>
+                        <p class="author">Praseeda Gopinadhan K</p>
+                        <p class="authorinfo">Data Science Intern, Tranzmeo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Second carousel ends here-->
+    </div>
+    <br>
+    <br>
+    <div class="row final" style="background-color: rgb(26, 2, 50); color: white;width: 100%;">
+        <div class="footcol col-lg-3" style="margin-left: 60px;width: 300px;margin-top: 44px;">
+            <div class="logo">
+                <img style="height: 184px; max-width: 100%;filter: none;padding-top: 5%;"
+                    src="http://web.archive.org/web/20211126071459im_/https://luminartechnolab.com/img/frontend/logo/footer.png">
+                <div class="social icons p-2">
+                    <i class="fa-brands fa-2x fa-facebook"></i> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fa-solid fa-2x fa-rss"></i> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fa-brands fa-2x fa-google-plus-g"></i> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fa-brands fa-2x fa-twitter"></i> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fa-brands fa-2x fa-instagram"></i> &nbsp;&nbsp;&nbsp;&nbsp;
+                </div>
+            </div>
+        </div>
+        <div class="footcol col-lg-3 mx-1">
+            <h3 class="py-4">TRAINING COURSES</h3>
+            <p>
+                <a href="course-detail/data-science-training-kochi" style="text-decoration: none;color: white;">Data
+                    Science Training</a>
+                <br>
+                <a href="course-detail/python-training-kochi" style="text-decoration: none;color: white;">Python
+                    Training</a>
+                <br>
+                <a href="course-detail/mean-stack-training-kochi" style="text-decoration: none;color: white;">MEAN Stack
+                    Training</a>
+                <br>
+                <a href="course-detail/data-science-training-kochi"
+                    style="text-decoration: none;color: white;">Artificial Intelligence Training</a>
+                <br>
+                <a href="course-detail/software-testing-training-kochi"
+                    style="text-decoration: none;color: white;">Software Testing Training</a>
+                <br>
+                <a href="courses" style="text-decoration: none;color: white;">Digital Marketing Training</a>
+                <br>
+                <a href="course-detail/data-analytics-training-kochi" style="text-decoration: none;color: white;">Power
+                    BI Training</a>
+                <br>
+                <a href="course-detail/data-analytics-training-kochi"
+                    style="text-decoration: none;color: white;">Tableau Training</a>
+                <br>
+                <a href="courses" style="text-decoration: none;color: white;">Php Training</a>
+                <br>
+                <a href="courses" style="text-decoration: none;color: white;">Asp.net Training</a>
+                <br>
+                <br>
+                <br>
+            </p>
+        </div>
+        <div class="footcol col-lg-3 mx-1">
+            <h3 class="py-4">USEFUL LINKS</h3>
+            <p>
+                <a href="#" style="text-decoration: none;color: white;">Teachers & Staff</a>
+                <br>
+                <a href="#" style="text-decoration: none;color: white;">Our courses</a>
+                <br>
+                <a href="#" style="text-decoration: none;color: white;">Courses categories</a>
+                <br>
+                <a href="#" style="text-decoration: none;color: white;">Certification & Affiliation</a>
+                <br>
+                <a href="#" style="text-decoration: none;color: white;">Refund and Cancellation Policy</a>
+                <br>
+                <a href="#" style="text-decoration: none;color: white;">Terms & Conditions</a>
+                <br>
+                <a href="#" style="text-decoration: none;color: white;">Privacy Conditions</a>
+                <br>
+                <br>
+
+            </p>
+        </div>
+        <div class="footcol col-lg-3">
+            <h3 class="py-4">GET IN TOUCH</h3>
+            <p>
+                <a href="tel:+91 8086 651 651" style="text-decoration: none;color: white;">
+                    <i class="fa-solid fa-phone"></i>
+                    +91 8086 651 651 <br>
+                </a>
+                <a href="tel:+91 484 405 8886" style="text-decoration: none;color: white;">
+                    <i class="fa-solid fa-phone"></i>
+                    +91 484 405 8886 <br>
+                </a>
+                <a href="mailto:contact@luminartechnolab.com" style="text-decoration: none;color: white;">
+                    <i class="fa-solid fa-envelope"></i>
+                    contact@luminartechnolab.com <br>
+                </a>
+                <a href="www.luminartechnolab.com" style="text-decoration: none;color: white;">
+                    <i class="fa-solid fa-earth-africa"></i>
+                    www.luminartechnolab.com <br>
+                </a>
+                <i class="fa-solid fa-location-dot" style="text-decoration: none;color: white;"></i>
+                16/3262, First floor,
+                <br>
+                Vallamattam Estate Seaport Airport Road,
+                <br>
+                CSEZ P O Kakkanad Ernakulam KL 682037 IN
+                <br>
+                <br>
+            </p>
+
+        </div>
+</body>
+
+</html>
